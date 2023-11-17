@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Alegreya SC";
+    src: url(../fonts/Alegreya_SC/AlegreyaSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Alegreya Sans";
+    src: url(../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/photo-1634712282287-14ed57b9cc89.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.newinterior a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #221f1f;
+    text-align: center;
+    font-family: "Alegreya SC";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 39.6px; /* 110% */
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.newinterior{
+    background-color: red;
+    width: 0vw;
+}
+
+h1{
+    text-align: center;
+}
+.header_untertitel{
+    text-align: center;
+}
+
+.latestwork{
+    width: 100vw;
+    height: 90vh;
+}
+
+.latestwork_header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15vw;
+}
+
+.latestwork_headerlinks h2{
+    color: #3A4F52;
+    font-family: "Alegreya Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39.6px; /* 110% */
+}
+
+.latestwork_headerlinks p{
+    color: #6A6A6A;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.viewAll a{
+    color: #3A4F52;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    text-decoration: none;
+    border: 1px solid #3A4F52;
+    padding: 2vh ;
+}
