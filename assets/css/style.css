@@ -618,8 +618,128 @@ footer p {
 
 /* ----------------media query----------------- */
 
+@media only screen and (max-width: 576px) {
+    header {
+        height: 80vh;
+    }
 
-@media only screen and (max-width: 768px) {
+    .latestwork {
+        height: 220vh;
+    }
+
+    .latestwork ul li {
+        width: 90vw;
+        height: 30vh;
+
+
+    }
+
+    li .hintergrund {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 33vh;
+    }
+
+    .ourservices {
+        height: 150vh;
+    }
+
+    .icons {
+        flex-direction: column;
+    }
+
+    .blog {
+        height: 220vh;
+    }
+
+    .blogsection {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10vh;
+    }
+
+    .blogtext {
+        width: 70vw;
+    }
+
+    .design,
+    .winter,
+    .theillustration {
+        width: 90vw;
+    }
+
+    .design img,
+    .winter img,
+    .theillustration img {
+        width: 70vw;
+    }
+
+    .meaningless {
+        height: 100vh;
+    }
+
+    .meaninglessframe {
+        width: 100vw;
+        margin: 10vh 0;
+        height: 80vh;
+    }
+
+    .meaninglessframe h2 {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70vw;
+    }
+
+    .meaninglessbutton {
+        width: 30vw;
+    }
+
+    .testimonials {
+        height: 200vh;
+    }
+
+    .threeguys {
+        flex-direction: column;
+        gap: 10vh;
+    }
+
+    .jane,
+    .jhon,
+    .albert {
+        gap: 2.5vh;
+        width: 80vw;
+    }
+
+    .jane img,
+    .jhon img,
+    .albert img {
+        width: 40vw;
+    }
+
+    .contactframe {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .contactframe input,
+    .contactframe textarea {
+        width: 90vw;
+    }
+
+    .contactframe input[type=submit] {
+        width: 20vw;
+    }
+
+}
+
+
+/* @media only screen and (max-width: 768px) {
     header {
         height: 50vh;
     }
@@ -677,4 +797,4 @@ footer p {
     input[type=submit]{
         width: 20vw;
     }
-}
+} */
