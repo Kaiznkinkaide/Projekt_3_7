@@ -14,13 +14,10 @@
 }
 
 
-
-
 body {
     display: flex;
     flex-direction: column;
 }
-
 
 header {
     height: 100vh;
@@ -50,6 +47,10 @@ nav {
     line-height: 39.6px;
     text-decoration: none;
 
+}
+
+.menuicon img:hover{
+    width: 2vw;
 }
 
 
@@ -115,6 +116,11 @@ header h1 {
     text-decoration: none;
     border: 1px solid #3A4F52;
     padding: 2vh;
+}
+
+.viewAll a:hover{
+    background-color: #3A4F52;
+    color: white;
 }
 
 .latestwork_headerrechts {
@@ -430,7 +436,11 @@ ul a {
     padding: 1vh;
     width: 14vw;
     margin-bottom: 5vh;
+}
 
+.meaninglessbutton:hover{
+    width: 15vw;
+    background-color: #3A4F52;
 }
 
 .meaninglessbutton a {
@@ -594,6 +604,11 @@ input[Type=submit] {
     color: #FFF;
     font-family: "Helvetica Neue";
     width: 7.5vw;
+}
+
+input[Type=submit]:hover{
+    width: 8vw;
+    background-color: #3A4F52;
 }
 
 footer {
