@@ -132,25 +132,79 @@ header h1 {
     overflow: hidden;
 }
 
-.latestwork ul li img {
+.latestwork ul li {
     width: 24vw;
     height: 24vh;
-    background-color: red;
     transition: transform 0.7s;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
+    display: flex;
+    align-items: center;
 }
 
-.latestwork ul li img:hover {
+.bild1 {
+    background-image: url(../img/bild.png);
+}
+
+.bild2 {
+    background-image: url(../img/Link2.png);
+}
+
+.bild3 {
+    background-image: url(../img/link3.png);
+}
+
+.bild4 {
+    background-image: url(../img/link4.png);
+}
+
+.bild5 {
+    background-image: url(../img/link5.png);
+}
+
+.bild6 {
+    background-image: url(../img/link6.png);
+}
+
+.bild1,.bild2,.bild3,.bild4,.bild5,.bild6{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+li .hintergrund {
+    background-color: rgba(2, 56, 58, 0.70);
+    width: 24vw;
+    height: 24vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.857%;
+    border: 2px solid white;
+    padding: 1vh 1vw;
+}
+
+.frameoderso:hover {
     width: 24vw;
     height: 24vh;
     overflow: hidden;
 }
 
-.latestwork img:hover {
+.latestwork li:hover {
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
