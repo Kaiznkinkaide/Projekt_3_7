@@ -128,10 +128,6 @@ header h1 {
     list-style: none;
 }
 
-.latestwork li {
-    overflow: hidden;
-}
-
 .latestwork ul li {
     width: 24vw;
     height: 24vh;
@@ -169,12 +165,20 @@ header h1 {
     background-image: url(../img/link6.png);
 }
 
-.bild1,.bild2,.bild3,.bild4,.bild5,.bild6{
+.bild1,
+.bild2,
+.bild3,
+.bild4,
+.bild5,
+.bild6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.framedigga {
+    overflow: hidden;
+}
 
 li .hintergrund {
     background-color: rgba(2, 56, 58, 0.70);
@@ -184,6 +188,11 @@ li .hintergrund {
     justify-content: center;
     align-items: center;
 }
+
+li:hover .hintergrund {
+    display: flex;
+}
+
 
 ul a {
     text-decoration: none;
@@ -198,11 +207,6 @@ ul a {
     padding: 1vh 1vw;
 }
 
-.frameoderso:hover {
-    width: 24vw;
-    height: 24vh;
-    overflow: hidden;
-}
 
 .latestwork li:hover {
     -webkit-transform: scale(1.2);
@@ -211,6 +215,7 @@ ul a {
     -o-transform: scale(1.2);
     transform: scale(1.5);
 }
+
 
 .ourservices {
     background-image: url("https://s3-alpha-sig.figma.com/img/73d0/ec08/8d72e0af708f1d83a868ba81ee657811?Expires=1701043200&Signature=WGYN2Zk3sEXMvT15d2lhN78Os-5C1sN8uxOmFJ2ZRHNx1VbeOuokwXJ0Ex2Yz3iofGIZSO0rZFmXjATWFx0dWK7fvxwDUfid18g3xGfyUF5Tbj-o2R5TrYrIhFFr7XY9KQ3q70dkMF8OfJdtW1HAxm5FgUO~KtVeRgUXsXhja-ddeons2ehInz5jMRF3EV3j2bwtyKTB3Nd-rH8u2h~5WBSDOcP8YjoeSWaTfYWJwsReX65-Nt-rlxbWBsYhZD3PKAOF-90rFUFCa4NN8zVp1aF1HGNtTzi8TqYz887YsVT5NDlZAZTahb~UX18iKa~h2FtIE0hico35GZDqugV39Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
@@ -323,7 +328,7 @@ ul a {
 .blog_headerlinks p {
     color: #6A6A6A;
     font-family: "Helvetica Neue";
-    font-size: 14px;
+    font-size: 0.875;
     font-weight: 400;
     line-height: 142.857%;
 }
@@ -605,4 +610,71 @@ footer p {
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 142.857%;
+}
+
+
+
+
+
+/* ----------------media query----------------- */
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 50vh;
+    }
+
+    .latestwork {
+        height: 50vh;
+    }
+
+    .latestwork ul li {
+        width: 23vw;
+        height: 15vh;
+    }
+
+    .icons {
+        flex-direction: column;
+
+
+    }
+
+    .ourservices {
+        height: 100vh;
+    }
+
+    .blog {
+        height: 70vh;
+    }
+
+    .meaningless {
+        height: 40vh;
+    }
+
+    .meaninglessframe {
+        margin: 5vh 2vw;
+    }
+
+    .meaninglessbutton {
+        width: 20vw;
+    }
+    .testimonials{
+        height: 100vh;
+    }
+    .threeguys {
+        flex-direction: column;
+    }
+    .jane, .jhon,.albert{
+        width: 80vw;;
+    }
+    .contactframe{
+        margin: 5vh 1vw;
+        width: 95vw;
+    }
+    .contactframe input, .contactframe textarea{
+        width: 90vw;
+    }
+    input[type=submit]{
+        width: 20vw;
+    }
 }
