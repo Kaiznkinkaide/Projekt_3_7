@@ -26,7 +26,6 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 nav {
@@ -273,7 +272,7 @@ header h1 {
 .blogsection {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.75vw;
+    gap: 1vw;
     margin: 0 10vw;
     justify-content: space-between;
     width: 80vw;
@@ -342,17 +341,226 @@ header h1 {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.242);
-    margin: 7.5vh ;
+    margin: 7.5vh;
     border: 1px solid red;
+    justify-content: center;
+    align-items: center;
 }
 
-.meaninglessframe h2{
+.meaninglessframe h2 {
     color: #FFF;
     text-align: center;
     font-family: "Alegreya Sans";
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 39.6px; /* 110% */
+    line-height: 39.6px;
+    /* 110% */
 }
 
+.meaninglessbutton {
+    text-align: center;
+    border: 1px solid #FFF;
+    padding: 11px 16.36px 11px 17px;
+    width: 12vw;
+    margin-bottom: 5vh;
+
+}
+
+.meaninglessbutton a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.testimonials h2 {
+    margin-top: 10vh;
+    color: #3A4F52;
+    text-align: center;
+    font-family: "Alegreya Sans";
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39.6px;
+    /* 110% */
+}
+
+.untertitel {
+    margin-top: -2.5vh;
+    margin-bottom: 12vh;
+    color: #6A6A6A;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.threeguys {
+    display: flex;
+    justify-content: space-around;
+    gap: 5vw;
+}
+
+.jhon,
+.jane,
+.albert {
+
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.jhon img,
+.jane img,
+.albert img {
+    width: 10vw;
+    align-self: center;
+}
+
+
+.texttestomonials,
+.name,
+.titel {
+    text-align: center;
+}
+
+.texttestomonials,
+.titel {
+    color: #6A6A6A;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.name {
+    color: #6A6A6A;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.titel {
+    margin: -1.5vh;
+}
+
+.contact {
+    background-image: url("../img/divcontact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    width: 100vw;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.242);
+    margin: 7.5vh;
+    border: 1px solid red;
+    width: 80vw;
+    height: 45vh;
+}
+
+.contact h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Alegreya Sans";
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39.6px;
+    /* 110% */
+    text-align: center;
+}
+
+.contact p {
+    margin-top: -2.5vh;
+    margin-bottom: 7.5vh;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.contactframe input,
+.contactframe textarea {
+    background-color: transparent;
+    width: 40vw;
+    padding: 1vh 0 1vh 0;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    margin-bottom: 1.5vh;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+    padding: 2.5vh;
+    color: #FFF;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input[Type=submit] {
+    color: #FFF;
+    font-family: "Helvetica Neue";
+    width: 7.5vw;
+}
+
+footer {
+    background-color: rgb(47, 61, 79);
+    height: 15vh;
+    width: 100vw;
+    border-right: 2.5px solid rgb(47, 61, 79);
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    margin-left: 10vw;
+    color: #FFF;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
