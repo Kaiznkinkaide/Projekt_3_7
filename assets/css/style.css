@@ -22,26 +22,27 @@ body {
 header {
     height: 100vh;
     width: 100vw;
-    background-image: url("../img/photo-1634712282287-14ed57b9cc89.png");
+    background-image: url("../img/ohnehashtagdigga.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0 5vw;
 }
 
 
 .newinterior a {
     display: flex;
-    border: 1px solid red;
     color: #FFF;
     text-align: center;
-    font-family: Alegreya SC;
+    font-family: "Alegreya SC";
     font-size: 2.25rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 39.6px;
     text-decoration: none;
@@ -53,23 +54,23 @@ header h1 {
     text-align: center;
     color: #FFF;
     text-align: center;
-    font-family: Nixie One;
+    font-family: "Nixie One";
     font-size: 3.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 56px;
-}
+    margin-top: 30vh;
+    }
 
 .header_untertitel {
     text-align: center;
     color: rgba(255, 255, 255, 0.50);
     text-align: center;
-    font-family: Alegreya SC;
+    font-family: "Alegreya SC";
     font-size: 1.4rem;
-    font-style: normal;
     font-weight: 400;
-    line-height: 22.4px;
-    /* 100% */
+    line-height: 100%;
+    margin-top: -2vh;
 }
 
 .latestwork {
@@ -90,30 +91,25 @@ header h1 {
     color: #3A4F52;
     font-family: "Alegreya Sans";
     font-size: 36px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 39.6px;
-    /* 110% */
+    line-height: 110%;
 }
 
 .latestwork_headerlinks p {
     color: #6A6A6A;
-    font-family: Helvetica Neue;
-    font-size: 14px;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 14.857%;
     /* 142.857% */
 }
 
 .viewAll a {
     color: #3A4F52;
     text-align: center;
-    font-family: Helvetica Neue;
-    font-size: 18px;
-    font-style: normal;
+    font-family: "Helvetica Neue";
+    font-size: 1.125rem;
     font-weight: 400;
-    line-height: 24px;
-    /* 133.333% */
     text-decoration: none;
     border: 1px solid #3A4F52;
     padding: 2vh;
@@ -124,18 +120,22 @@ header h1 {
 }
 
 .latestwork ul {
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     gap: 1.75vw;
-    margin: 0 10vw;
+    margin: 0 10vw ;
     justify-content: center;
     list-style: none;
-}
+    }
 
 .latestwork ul li img {
     width: 24vw;
     height: 24vh;
+}
+
+.latestwork ul li img:hover{
+    background-color: red;
+    background-size: cover;
 }
 
 .ourservices {
@@ -162,10 +162,8 @@ header h1 {
     text-align: center;
     font-family: "Alegreya Sans";
     font-size: 2.25rem;
-    font-style: normal;
     font-weight: 500;
-    line-height: 39.6px;
-    /* 110% */
+    line-height: 110%;
 }
 
 .servicetext {
@@ -173,12 +171,10 @@ header h1 {
     margin-bottom: 8.5vh;
     color: #FFF;
     text-align: center;
-    font-family: Helvetica Neue;
-    font-size: 14px;
-    font-style: normal;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
 
 .icons {
@@ -209,12 +205,10 @@ header h1 {
     margin: 0 auto 3.5vh;
     color: #FFF;
     text-align: center;
-    font-family: Alegreya Sans;
+    font-family: "Alegreya Sans";
     font-size: 1.875rem;
-    font-style: normal;
     font-weight: 500;
-    line-height: 33px;
-    /* 110% */
+    line-height: 110%;
 }
 
 .Illustrationtext,
@@ -224,12 +218,10 @@ header h1 {
     text-align: center;
     color: #FFF;
     text-align: center;
-    font-family: Helvetica Neue;
-    font-size: 14px;
-    font-style: normal;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
 
 .blog {
@@ -249,20 +241,17 @@ header h1 {
 .blog_headerlinks h2 {
     color: #3A4F52;
     font-family: "Alegreya Sans";
-    font-size: 36px;
-    font-style: normal;
+    font-size: 2.25rem;
     font-weight: 500;
-    line-height: 39.6px;
-    /* 110% */
+    line-height: 110%;
 }
 
 .blog_headerlinks p {
     color: #6A6A6A;
-    font-family: Helvetica Neue;
+    font-family: "Helvetica Neue";
     font-size: 14px;
     font-weight: 400;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
 
 .blog_headerrechts {
@@ -284,44 +273,43 @@ header h1 {
     width: 25vw;
 }
 
+.design img, .winter img,
+.theillustration img{
+    width: 25vw;
+}
+
 .blogsection h2 {
     color: #3A4F52;
     font-family: "Alegreya Sans";
-    font-size: 30px;
-    font-style: normal;
+    font-size: 1.875rem;
     font-weight: 500;
-    line-height: 33px;
-    /* 110% */
+    line-height: 110%;
 }
 
 .date {
     color: #6A6A6A;
-    font-family: Helvetica Neue;
-    font-size: 14px;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem ;
     font-style: italic;
     font-weight: 400;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
 
 .blogtext {
     color: #6A6A6A;
-    font-family: Helvetica Neue;
-    font-size: 14px;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem;
     font-style: italic;
     font-weight: 400;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
 
 .blogsection a {
     color: #4DA7CA;
-    font-family: Helvetica Neue;
-    font-size: 14px;
-    font-style: normal;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
 
 .meaningless {
@@ -331,7 +319,6 @@ header h1 {
     background-position: center;
     height: 40vh;
     width: 100vw;
-    border: 1px solid red;
     display: flex;
 }
 
@@ -342,7 +329,6 @@ header h1 {
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.242);
     margin: 7.5vh;
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
 }
@@ -352,17 +338,15 @@ header h1 {
     text-align: center;
     font-family: "Alegreya Sans";
     font-size: 2.25rem;
-    font-style: normal;
     font-weight: 500;
-    line-height: 39.6px;
-    /* 110% */
+    line-height: 110%;
 }
 
 .meaninglessbutton {
     text-align: center;
     border: 1px solid #FFF;
-    padding: 11px 16.36px 11px 17px;
-    width: 12vw;
+    padding: 1vh;
+    width: 14vw;
     margin-bottom: 5vh;
 
 }
@@ -373,10 +357,8 @@ header h1 {
     text-align: center;
     font-family: "Helvetica Neue";
     font-size: 1.125rem;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    /* 133.333% */
+    line-height: 133.333%;
 }
 
 .testimonials {
@@ -392,9 +374,8 @@ header h1 {
     text-align: center;
     font-family: "Alegreya Sans";
     font-size: 2.25rem;
-    font-style: normal;
     font-weight: 500;
-    line-height: 39.6px;
+    line-height: 110%;
     /* 110% */
 }
 
@@ -403,12 +384,10 @@ header h1 {
     margin-bottom: 12vh;
     color: #6A6A6A;
     text-align: center;
-    font-family: Helvetica Neue;
-    font-size: 14px;
-    font-style: normal;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
 
 .threeguys {
@@ -444,23 +423,20 @@ header h1 {
 .titel {
     color: #6A6A6A;
     text-align: center;
-    font-family: Helvetica Neue;
-    font-size: 14px;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
 
 .name {
     color: #6A6A6A;
     text-align: center;
-    font-family: Helvetica Neue;
-    font-size: 14px;
-    font-style: normal;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem;
     font-weight: 700;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
 
 .titel {
@@ -474,7 +450,6 @@ header h1 {
     background-position: center;
     height: 55vh;
     width: 100vw;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -486,7 +461,6 @@ header h1 {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.242);
     margin: 7.5vh;
-    border: 1px solid red;
     width: 80vw;
     height: 45vh;
 }
@@ -496,10 +470,8 @@ header h1 {
     text-align: center;
     font-family: "Alegreya Sans";
     font-size: 2.25rem;
-    font-style: normal;
     font-weight: 500;
-    line-height: 39.6px;
-    /* 110% */
+    line-height: 110%;
     text-align: center;
 }
 
@@ -509,12 +481,11 @@ header h1 {
     text-align: center;
     color: #FFF;
     text-align: center;
-    font-family: Helvetica Neue;
-    font-size: 14px;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
 
 .contactframe input,
@@ -533,10 +504,8 @@ textarea::placeholder {
     padding: 2.5vh;
     color: #FFF;
     font-family: "Helvetica Neue";
-    font-size: 14px;
-    font-style: normal;
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: normal;
 }
 
 input[Type=submit] {
@@ -557,10 +526,8 @@ footer {
 footer p {
     margin-left: 10vw;
     color: #FFF;
-    font-family: Helvetica Neue;
-    font-size: 14px;
-    font-style: normal;
+    font-family: "Helvetica Neue";
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 142.857%;
 }
