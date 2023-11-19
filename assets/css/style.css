@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Alegreya SC";
-    src: url(../fonts/Alegreya_SC/AlegreyaSC-Regular.ttf);
+    src: url("../fonts/Alegreya_SC/AlegreyaSC-Regular.ttf");
 }
 
 @font-face {
     font-family: "Alegreya Sans";
-    src: url(../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf);
+    src: url("../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf");
 }
 
 @font-face {
@@ -15,11 +15,14 @@
 
 
 body {
+
     display: flex;
     flex-direction: column;
+    margin-left: -0.75vw;
 }
 
 header {
+    margin: 0;
     height: 100vh;
     width: 100vw;
     background-image: url("../img/ohnehashtagdigga.png");
@@ -49,7 +52,7 @@ nav {
 
 }
 
-.menuicon img:hover{
+.menuicon img:hover {
     width: 2vw;
 }
 
@@ -104,7 +107,7 @@ header h1 {
     font-family: "Helvetica Neue";
     font-size: 0.875rem;
     font-weight: 400;
-    line-height: 142.857% ;
+    line-height: 142.857%;
 }
 
 .viewAll a {
@@ -118,7 +121,7 @@ header h1 {
     padding: 2vh;
 }
 
-.viewAll a:hover{
+.viewAll a:hover {
     background-color: #3A4F52;
     color: white;
 }
@@ -265,6 +268,7 @@ ul a {
 }
 
 .icons {
+
     display: flex;
     justify-content: space-evenly;
     gap: 8.5vh;
@@ -281,6 +285,7 @@ ul a {
 .concepts img,
 .Colors img,
 .Illustration img {
+
     width: 5vw;
     height: 5vw;
     margin: 0 auto;
@@ -438,7 +443,7 @@ ul a {
     margin-bottom: 5vh;
 }
 
-.meaninglessbutton:hover{
+.meaninglessbutton:hover {
     width: 15vw;
     background-color: #3A4F52;
 }
@@ -606,7 +611,7 @@ input[Type=submit] {
     width: 7.5vw;
 }
 
-input[Type=submit]:hover{
+input[Type=submit]:hover {
     width: 8vw;
     background-color: #3A4F52;
 }
@@ -636,6 +641,13 @@ footer p {
 /* ----------------media query----------------- */
 
 @media only screen and (max-width: 576px) {
+
+    body {
+        margin: 0;
+        width: 100vw;
+
+    }
+
     header {
         height: 80vh;
     }
@@ -644,31 +656,76 @@ footer p {
         height: 220vh;
     }
 
+    .framedigga {
+        width: 99vw;
+
+    }
+
+    .latestwork ul {
+        margin-left: -10vw;
+        width: 100vw;
+    }
+
     .latestwork ul li {
-        width: 90vw;
+        width: 100vw;
         height: 30vh;
+    }
 
-
+    .latestwork_header {
+        margin: 0 1vw;
     }
 
     li .hintergrund {
+
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90vw;
-        height: 33vh;
+        width: 100vw;
+        height: 30vh;
+
     }
+
 
     .ourservices {
         height: 150vh;
+
+    }
+
+    .serviceframe {
+        margin: 10vh 0;
+        width: 100vw;
+
     }
 
     .icons {
         flex-direction: column;
     }
 
+    .serviceframe h2 {
+        font-size: 2.9rem;
+    }
+
+
+    .conceptstext,
+    .colorsstext,
+    .Illustrationtext {
+        width: 80vw;
+        font-size: ;
+    }
+
+    .icons img {
+
+        width: 20vw;
+        height: 10vh;
+    }
+
     .blog {
-        height: 220vh;
+        height: 250vh;
+    }
+
+    .blog_header {
+        margin: 0 2vw;
+
     }
 
     .blogsection {
@@ -676,10 +733,12 @@ footer p {
         justify-content: center;
         align-items: center;
         gap: 10vh;
+        margin-left: 1vw;
+
     }
 
     .blogtext {
-        width: 70vw;
+        width: 50vw;
     }
 
     .design,
@@ -691,7 +750,7 @@ footer p {
     .design img,
     .winter img,
     .theillustration img {
-        width: 70vw;
+        width: 98vw;
     }
 
     .meaningless {
@@ -718,7 +777,7 @@ footer p {
     }
 
     .testimonials {
-        height: 200vh;
+        height: 190vh;
     }
 
     .threeguys {
