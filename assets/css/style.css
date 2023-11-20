@@ -648,146 +648,103 @@ footer p {
     body {
         margin: 0;
         width: 100vw;
-
     }
-
-    header {
-        height: 80vh;
+    .header_h1{
+        margin-bottom: 0vh;
     }
-
-    .latestwork {
-        height: 220vh;
-    }
-
     .framedigga {
-        width: 99vw;
-
-    }
-
-    .latestwork ul {
-        margin-left: -10vw;
         width: 100vw;
     }
-
+    .latestwork ul {
+        width: 100vw;
+        margin: 0;
+    }
     .latestwork ul li {
         width: 100vw;
-        height: 30vh;
     }
-
     .latestwork_header {
         margin: 0 1vw;
     }
-
     li .hintergrund {
-
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 30vh;
-
+        height: 100%;
     }
-
-
-    .ourservices {
-        height: 150vh;
-
-    }
-
     .serviceframe {
         margin: 10vh 0;
         width: 100vw;
-
     }
-
     .icons {
         flex-direction: column;
     }
-
+    .icons img{
+        height: 20vh;
+        width: 20vw;
+    }
+    .blog_header {
+        margin:5vh 2vh 5vh ;
+    }
+    .design, .winter, .theillustration{
+        display: flex;
+        flex-direction: column;
+        gap:2vh;
+        margin: 0;
+    }
     .serviceframe h2 {
         font-size: 2.9rem;
     }
-
-
     .conceptstext,
     .colorsstext,
     .Illustrationtext {
         width: 80vw;
-        font-size: ;
     }
 
     .icons img {
-
         width: 20vw;
-        height: 10vh;
     }
-
-    .blog {
-        height: 250vh;
-    }
-
-    .blog_header {
-        margin: 0 2vw;
-
-    }
-
     .blogsection {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10vh;
         margin-left: 1vw;
-
     }
-
     .blogtext {
         width: 50vw;
     }
-
     .design,
     .winter,
     .theillustration {
         width: 90vw;
     }
-
     .design img,
     .winter img,
     .theillustration img {
         width: 98vw;
     }
-
-    .meaningless {
-        height: 100vh;
-    }
-
     .meaninglessframe {
         width: 100vw;
         margin: 10vh 0;
-        height: 80vh;
     }
-
     .meaninglessframe h2 {
-        height: 70vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 70vw;
     }
-
     .meaninglessbutton {
-        width: 30vw;
+        width: 40vw;
     }
-
-    .testimonials {
-        height: 190vh;
+    .untertitel{
+        margin:0;
     }
-
     .threeguys {
         flex-direction: column;
-        gap: 10vh;
+        gap: 2vh;
     }
-
     .jane,
     .jhon,
     .albert {
