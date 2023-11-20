@@ -26,8 +26,7 @@ body {
 }
 
 header {
-    margin: 0;
-    height: 100vh;
+    margin-bottom: 10vh;
     width: 100vw;
     background-image: url("../img/ohnehashtagdigga.png");
     background-position: center;
@@ -40,7 +39,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 5vw;
+    margin: 5vh 5vw 0;
 }
 
 
@@ -70,7 +69,7 @@ header h1 {
     font-style: normal;
     font-weight: 400;
     line-height: 56px;
-    margin-top: 30vh;
+    margin: 30vh 0 2.5vh;
 }
 
 .header_untertitel {
@@ -81,14 +80,13 @@ header h1 {
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 100%;
-    margin-top: -2vh;
+    margin-bottom: 45vh;
 }
 
 .latestwork {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 90vh;
     gap: 5vh;
 }
 
@@ -138,14 +136,14 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 1.75vw;
-    margin: 0 10vw;
+    margin: 0 5vw 10vh;
     justify-content: center;
     list-style: none;
 }
 
 .latestwork ul li {
-    width: 24vw;
-    height: 24vh;
+    width: 25.5vw;
+    height: 25.5vh;
     transition: transform 0.7s;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -238,7 +236,6 @@ ul a {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 70vh;
     display: flex;
     justify-content: center;
 
@@ -258,6 +255,7 @@ ul a {
     font-size: 2.25rem;
     font-weight: 500;
     line-height: 110%;
+    margin: 5vh 0;
 }
 
 .servicetext {
@@ -276,6 +274,8 @@ ul a {
     display: flex;
     justify-content: space-evenly;
     gap: 8.5vh;
+    margin-bottom: 10vh;
+    padding: 0 5vw;
 }
 
 .concepts,
@@ -324,14 +324,13 @@ ul a {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 115vh;
     gap: 5vh;
 }
 
 .blog_header {
     display: flex;
     justify-content: space-between;
-    margin: 0 10vw;
+    margin: 5vh 10vw 2vh;
 }
 
 .blog_headerlinks h2 {
@@ -358,7 +357,7 @@ ul a {
     display: flex;
     flex-wrap: wrap;
     gap: 1vw;
-    margin: 0 10vw;
+    margin: 0 10vw 10vh;
     justify-content: space-between;
     width: 80vw;
 }
@@ -414,7 +413,6 @@ ul a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 40vh;
     width: 100vw;
     display: flex;
 }
@@ -425,9 +423,10 @@ ul a {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.242);
-    margin: 7.5vh;
-    justify-content: center;
+    margin: 7.5vh 12.5vw;
+    justify-content: space-between;
     align-items: center;
+    padding: 5vw;
 }
 
 .meaninglessframe h2 {
@@ -437,6 +436,8 @@ ul a {
     font-size: 2.25rem;
     font-weight: 500;
     line-height: 110%;
+    margin-bottom: 10vh;
+
 }
 
 .meaninglessbutton {
@@ -444,7 +445,6 @@ ul a {
     border: 1px solid #FFF;
     padding: 1vh;
     width: 14vw;
-    margin-bottom: 5vh;
 }
 
 .meaninglessbutton:hover {
@@ -466,7 +466,7 @@ ul a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
+    gap: 5vh;
 }
 
 .testimonials h2 {
@@ -538,10 +538,11 @@ ul a {
     font-size: 0.875rem;
     font-weight: 700;
     line-height: 142.857%;
+    margin: 5vh 0 2vh;
 }
 
 .titel {
-    margin: -1.5vh;
+    margin-bottom: 10vh;
 }
 
 .contact {
@@ -549,7 +550,6 @@ ul a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 55vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -563,7 +563,6 @@ ul a {
     background-color: rgba(0, 0, 0, 0.242);
     margin: 7.5vh;
     width: 80vw;
-    height: 45vh;
 }
 
 .contact h2 {
@@ -574,11 +573,10 @@ ul a {
     font-weight: 500;
     line-height: 110%;
     text-align: center;
+    margin: 5vh 0 3vh;
 }
 
 .contact p {
-    margin-top: -2.5vh;
-    margin-bottom: 7.5vh;
     text-align: center;
     color: #FFF;
     text-align: center;
@@ -587,6 +585,7 @@ ul a {
     font-style: normal;
     font-weight: 400;
     line-height: 142.857%;
+    margin-bottom: 7.5vh;
 }
 
 .contactframe input,
